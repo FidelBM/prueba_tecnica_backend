@@ -9,18 +9,17 @@ Primero se debe tener intalado node en https://nodejs.org/en para poder utilizar
 
 Si ya lo tienes instalado abre una consola en la carpeta del proyecto y ejecuta los siguientes codigos
 
-## Installation
+## Instalacion
 
 ```bash
 $ npm i -g @nestjs/cli
 $ npm install
 ```
 
-## Running the app
+## Ejecutar la app
 
 ```bash
 
-# watch mode
 $ npm run start:dev
 
 ```
