@@ -1,5 +1,6 @@
-import { Entity, Column, PrimaryGeneratedColumn, OneToMany } from "typeorm"
+import { Entity, Column, PrimaryGeneratedColumn } from "typeorm" // Modulos para entidades de la tabla
 
+// Entidad de la tabla usuarios
 @Entity({name: 'usuarios'})
 export class Usuario{
     @PrimaryGeneratedColumn()

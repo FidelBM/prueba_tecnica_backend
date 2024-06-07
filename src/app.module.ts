@@ -5,6 +5,7 @@ import { UsuariosModule } from './usuarios/usuarios.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
 
 @Module({
+  // Conexión a la base de datow
   imports: [
     TypeOrmModule.forRoot({
       type: 'postgres',
